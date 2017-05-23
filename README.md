@@ -1,8 +1,17 @@
-[![CircleCI](https://circleci.com/gh/andrewrothstein/ansible-emacs.svg?style=svg)](https://circleci.com/gh/andrewrothstein/ansible-emacs)
-andrewrothstein.emacs
+fouadsemaan.package-installer
 =========
 
-Installs [Emacs](https://www.gnu.org/software/emacs/)
+Installs packages specified at runtime.
+
+Example to install vim and tree:
+
+---
+- hosts: all
+  roles:
+    - role: fouadsemaan.package-installer 
+      pkgs:
+        - vim
+        - tree
 
 Requirements
 ------------
@@ -25,7 +34,10 @@ Example Playbook
 ```yml
 - hosts: servers
   roles:
-    - andrewrothstein.emacs
+    - role: fouadsemaan.package-installer 
+      pkgs:
+        - vim
+        - tree
 ```
 
 License
@@ -37,3 +49,4 @@ Author Information
 ------------------
 
 Andrew Rothstein <andrew.rothstein@gmail.com>
+Fouad Semaan <semaanfouad@gmail.com>

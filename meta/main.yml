@@ -1,7 +1,7 @@
 ---
 galaxy_info:
-  author: Andrew Rothstein
-  description: emacs + some emacs goodies
+  author: Andrew Rothstein, Fouad Semaan
+  description: package installer 
   company: BlackRock
   license:
     - MIT

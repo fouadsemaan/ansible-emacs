@@ -1,4 +1,0 @@
----
-emacs_os_pkgs:
-  - emacs
-  - emacs-yaml-mode
