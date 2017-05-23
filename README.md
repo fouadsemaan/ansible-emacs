@@ -3,15 +3,17 @@ fouadsemaan.package-installer
 
 Installs packages specified at runtime.
 
-Example to install vim and tree:
+Example Playbook
+----------------
 
----
-- hosts: all
+```yml
+- hosts: servers
   roles:
     - role: fouadsemaan.package-installer 
       pkgs:
         - vim
         - tree
+```
 
 Requirements
 ------------
@@ -27,18 +29,6 @@ Dependencies
 ------------
 
 See [meta/main.yml](meta/main.yml)
-
-Example Playbook
-----------------
-
-```yml
-- hosts: servers
-  roles:
-    - role: fouadsemaan.package-installer 
-      pkgs:
-        - vim
-        - tree
-```
 
 License
 -------
