@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/fouadsemaan/ansible-package-installer.svg?style=svg)](https://circleci.com/gh/fouadsemaan/ansible-package-installer)
 fouadsemaan.package-installer
 =========
 
